@@ -1,0 +1,73 @@
+.root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press Start 2P";
+    background-color: var(--main-bgcolor);
+    --main-color: #31ff31;
+    --main-bgcolor: #000;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.root_container{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 5px var(--main-color);
+}
+
+.wrapper{
+    width: 5%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__symbol{
+    font-size: 64px;
+    text-shadow: 0px 0px 20px var(--main-color);
+
+    color: var(--main-color);
+}
+
+.container__modif{
+    display: flex;
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    border: 2px solid var(--main-color);
+    top: 50px;
+}
+
+/* .shift, */
+.language{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+}
+
+.shift{
+    display: flex;
+    visibility: hidden;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+}
